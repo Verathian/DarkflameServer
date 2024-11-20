@@ -1,0 +1,15 @@
+<objects>
+	<!--UPDATED: nimbus to frostburgh-->
+	<object lot="12442">
+		<locations>
+			<location zone="1200" x="-362.17" y="290.31" z="209.85" rw="0.92" rx="0.0" ry="-0.38" rz="0.0" />
+		</locations>
+	</object>
+	
+	<!--UPDATED: frostburgh to nimbus-->
+	<object lot="12442">
+		<locations>
+			<location zone="1260" x="-668.58" y="569.1109" z="629.85" rw="0.974" rx="0.0" ry="-0.22" rz="0.0" />
+		</locations>
+	</object>
+</objects>

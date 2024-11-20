@@ -1,5 +1,11 @@
 # CREDITS
 
+## Reborn Universe Server Operator
+Verathian (ColossalFlyingAtom)
+
+## Reborn Universe Server Engineer
+Ace15
+
 ## DLU Team
 DarwinAnim8or (Max)
 Wincent01
