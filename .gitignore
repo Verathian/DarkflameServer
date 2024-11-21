@@ -9,8 +9,19 @@ thirdparty/mysql_linux/
 CMakeVariables.txt
 
 # Build folders
-build/
+build/*
 linux_build/
+
+# EXCLUSION: Things to still track
+!build/vanity/
+!build/vanity/*
+!build/res/macros/
+!build/res/macros/*
+!build/res/maps/
+!build/res/maps/*
+!build/res/names/
+!build/res/names/*
+!build/res/CDServer.sqlite
 
 # Codeblocks
 *.layout
