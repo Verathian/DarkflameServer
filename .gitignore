@@ -10,7 +10,6 @@ CMakeVariables.txt
 
 # Build folders
 build/
-!build/CDServer.sqlite
 linux_build/
 
 # Codeblocks
