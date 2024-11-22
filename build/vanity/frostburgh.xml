@@ -7,7 +7,7 @@
 	</object>
 	
 	<!--UPDATED: frostburgh to nimbus-->
-	<object lot="12442">
+	<object lot="12460">
 		<locations>
 			<location zone="1260" x="-668.58" y="569.1109" z="629.85" rw="0.974" rx="0.0" ry="-0.22" rz="0.0" />
 		</locations>
