@@ -1,0 +1,8 @@
+<objects>
+	<!-- Nexus Jawbox (for Nexus Tower Builder Achievements) in Nexus Tower Shop Area (Sentinel Zone) -->
+	<object lot="13773">
+		<locations>
+			<location zone="1900" x="-607.57" y="1128.74" z="4.97" rw="0.89" rx="0.0" ry="0.46" rz="0.0" />
+		</locations>
+	</object>
+</objects>

@@ -8,8 +8,47 @@ thirdparty/mysql/
 thirdparty/mysql_linux/
 CMakeVariables.txt
 
-# Build folders
-build/*
+# Build folders/files
+build/_deps/*
+build/bin/*
+build/CMakeFiles/*
+build/dAuthServer/*
+build/dChatFilter/*
+build/dChatServer/*
+build/dCommon/*
+build/dDatabase/*
+build/dGame/*
+build/dMasterServer/*
+build/dNavigation/*
+build/dNet/*
+build/dPhysics/*
+build/dScripts/*
+build/dServer/*
+build/dWorldServer/*
+build/dZoneManager/*
+build/lib/*
+build/locale/*.xml_bckp
+build/logs/*
+build/mariadbcpp/*
+build/migrations/*
+build/navmeshes/*
+build/prefix/*
+build/res/BrickModels/*
+build/res/*.sqlite_bckp
+build/resServer/*.sqlite_bckp
+build/Testing/*
+build/tests/*
+build/thirdparty/*
+build/*.ini
+build/*.*
+build/AuthServer
+build/ChatServer
+build/Makefile
+build/MasterServer
+build/WorldServer
+build/dCommonTests
+build/dGameTests
+
 linux_build/
 
 # EXCLUSION: Things to still track

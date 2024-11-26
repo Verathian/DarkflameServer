@@ -1,0 +1,12 @@
+<objects>
+	<!-- Vaultkeeper Ace - Sells Custom Nexus Force Gear -->
+	<object name="Vaultkeeper Ace - Nexus Supply Officer" lot="6633">
+		<equipment>57005, 5687, 7633, 7732</equipment>
+		<config>
+			<key>vendorInvOverride=0:57005,57010</key>
+		</config>
+		<locations>
+			<location zone="1900" x="-437.70" y="1128.17" z="-237.49" rw="0.88" rx="0.00" ry="0.48" rz="0.00" />
+		</locations>
+	</object>
+</objects>
