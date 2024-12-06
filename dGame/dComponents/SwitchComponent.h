@@ -22,7 +22,6 @@ public:
 	~SwitchComponent() override;
 
 	void Update(float deltaTime) override;
-	void OnUse(Entity* originator) override;
 
 	Entity* GetParentEntity() const;
 
@@ -102,8 +101,6 @@ private:
 	 * Attached pet bouncer
 	 */
 	BouncerComponent* m_PetBouncer = nullptr;
-
-	std::vector<int32_t> m_FactionsToRespondTo{};
 };
 
 #endif // SWITCHCOMPONENT_H

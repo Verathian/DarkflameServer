@@ -1351,6 +1351,11 @@ void Entity::OnCollisionPhantom(const LWOOBJID otherEntity) {
 		callback(other);
 	}
 
+	SwitchComponent* switchComp = GetComponent<SwitchComponent>();
+	if (switchComp) {
+		switchComp->EntityEnter(other);
+	}
+
 	TriggerEvent(eTriggerEventType::ENTER, other);
 
 	// POI system
