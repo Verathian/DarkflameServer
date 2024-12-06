@@ -1,12 +1,38 @@
 <objects>
 	<!-- Vaultkeeper Ace - Sells Custom Nexus Force Gear -->
-	<object name="Vaultkeeper Ace - Nexus Supply Officer" lot="6633">
-		<equipment>57005, 5687, 7633, 7732</equipment>
+	<object name="Vaultkeeper Ace - Nexus Supply Officer" lot="13383">
+		<equipment>57005, 5687, 7633, 7732, 57010</equipment>
+		<phrases>
+			<phrase>Come get the standard issue!</phrase>
+			<phrase>We should be getting a batch of recruit gear any day now..</phrase>
+			<phrase>Hey you! Know any good spots to build a Forest Home?</phrase>
+			<phrase>Hi there!</phrase>
+			<phrase>Whoops.. Left my messenger bag at home..</phrase>
+		</phrases>
 		<config>
-			<key>vendorInvOverride=0:57005,57010</key>
+			<key>custom_script_client=0:scripts\ai\SPEC\MISSION_MINIGAME_CLIENT.lua</key>
+			<key>vendorInvOverride=0:57005,57007,57008,57010</key>
 		</config>
 		<locations>
 			<location zone="1900" x="-437.70" y="1128.17" z="-237.49" rw="0.88" rx="0.00" ry="0.48" rz="0.00" />
+		</locations>
+	</object>
+	<!-- Pollygone Pete - Panicked Pirate -->
+	<object name="Pollygone Pete - Panicked Pirate" lot="11245">
+		<equipment>2526, 2951, 6746</equipment>
+		<config>
+				<key>custom_script_client=0:scripts\ai\SPEC\MISSION_MINIGAME_CLIENT.lua</key>
+		</config>
+		<phrases>
+			<phrase>I hope me ole' pal's alright..</phrase>
+			<phrase>Not me best day, today...</phrase>
+			<phrase>If only I had me crewmates.. They'd know what to do!</phrase>
+			<phrase>I need to get out of here before them ninjas spot me!</phrase>
+			<phrase>Someday, I'm gonna be king of the parrots! Well.. After I get me first mate back..</phrase>
+			<phrase>Have ye seen a parrot?! The size of a uh... Well a parrot..?</phrase>
+		</phrases>
+		<locations>
+			<location zone="1400" x="-358.00" y="-16.78" z="-353.78" rw="0.66" rx="0.00" ry="-0.75" rz="0.00" />
 		</locations>
 	</object>
 </objects>
