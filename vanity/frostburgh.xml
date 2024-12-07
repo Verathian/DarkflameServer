@@ -1,10 +1,23 @@
 <objects>
-	<!--UPDATED: nimbus to frostburgh-->
+
+	<!--NS Frostburgh Launchpad-->
 	<object lot="12442">
+		<config>
+			<key>CheckPrecondition=0:47</key>
+			<key>rocketLaunchPreCondition=0:47</key>
+			<key>rocketUseLaunchPrecondition=7:0</key>
+		</config>
 		<locations>
-			<location zone="1200" x="-362.17" y="290.31" z="209.85" rw="0.92" rx="0.0" ry="-0.38" rz="0.0" />
+			<location zone="1200" x="246.72" y="289.35" z="248.96" rw="0.9994786381721497" rx="0.00" ry="0.03228670358657837" rz="0.00" />
 		</locations>
 	</object>
+
+	<!-- Nimbus to frostburgh -->
+	<!--<object lot="12442">-->
+		<!--<locations>-->
+			<!--<location zone="1200" x="-362.17" y="290.31" z="209.85" rw="0.92" rx="0.0" ry="-0.38" rz="0.0" />-->
+		<!--</locations>-->
+	<!--</object>-->
 
 	<!-- IN CASE NEEDED: frostburgh to nimbus-->
 	<!--<object lot="12460">-->

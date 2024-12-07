@@ -2,7 +2,7 @@
 	<file name="dev-tribute.xml" enabled="0"/>
 	<file name="atm.xml" enabled="1"/>
 	<file name="demo.xml" enabled="0"/>
-	<file name="frostburgh.xml" enabled="0"/>
+	<file name="frostburgh.xml" enabled="1"/>
 	<file name="nexus_jawbox.xml" enabled="1"/>
 	<file name="vlu_additions.xml" enabled="1"/>
 </files>
